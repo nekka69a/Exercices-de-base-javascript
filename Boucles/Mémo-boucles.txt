@@ -1,0 +1,91 @@
+Types de Boucles en JavaScript
+
+
+
+Boucle for
+
+Idéale pour les situations où le nombre de répétitions est connu à l'avance.
+Structure : for (initialisation; condition; incrément) {
+
+// code à exécuter
+
+}
+
+Exemple :
+javascriptCopy codefor (let i = 0; i < 5; i++) {
+console.log('Numéro :', i);
+}
+
+
+
+
+
+
+
+Boucle while
+
+Utilisée quand le nombre de répétitions n'est pas connu avant le début de la boucle.
+Structure : while (condition) {
+
+// code à exécuter
+
+}
+
+Exemple :
+javascriptCopy codelet i = 0;
+while (i < 5) {
+console.log('Compteur :', i);
+i++;
+}
+
+
+
+
+
+
+
+Boucle do...while
+
+Garantit que le code est exécuté au moins une fois, car la condition est vérifiée après l'exécution du bloc.
+Structure : do {
+
+// code à exécuter
+
+} while (condition);
+
+Exemple :
+javascriptCopy codelet j = 0;
+do {
+console.log('Valeur :', j);
+j++;
+} while (j < 5);
+
+
+
+
+
+Parcourir des Tableaux et des Objets
+
+Boucles avec des tableaux :
+
+Utilisez la boucle for...of pour parcourir tous les éléments d'un tableau.
+
+Exemple :
+javascriptCopy codelet couleurs = ['rouge', 'vert', 'bleu'];
+for (let couleur of couleurs) {
+console.log(couleur);
+}
+
+Boucles avec des objets :
+
+Utilisez la boucle for...in pour parcourir les propriétés d'un objet.
+
+Exemple :
+javascriptCopy codelet voiture = {
+marque: 'Toyota',
+modele: 'Corolla',
+annee: 2021
+};
+for (let cle in voiture) {
+console.log(`${cle}: ${voiture[cle]}`);
+}

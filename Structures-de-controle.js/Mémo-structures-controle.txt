@@ -1,0 +1,48 @@
+Types Principaux de Structures de Contrôle
+
+
+
+Instructions Conditionnelles
+if : Exécute un bloc de code si une condition spécifiée est vraie.
+javascriptCopy codeif (condition) {
+// bloc de code à exécuter si la condition est vraie
+}
+
+
+
+
+else : Exécute un bloc de code si la condition dans le if n'est pas vraie.
+javascriptCopy codeif (condition) {
+// bloc de code si la condition est vraie
+} else {
+// bloc de code si la condition n'est pas vraie
+}
+
+
+
+
+else if : Spécifie une nouvelle condition à tester, si la première condition est fausse.
+javascriptCopy codeif (condition1) {
+// bloc de code si condition1 est vraie
+} else if (condition2) {
+// bloc de code si condition2 est vraie
+} else {
+// bloc de code si aucune des conditions précédentes n'est vraie
+}
+
+
+
+
+
+Utilisation de Switch
+Permet d'exécuter différents blocs de code en fonction de plusieurs tests.
+javascriptCopy codeswitch(expression) {
+case x:
+// bloc de code
+break;
+case y:
+// bloc de code
+break;
+default:
+// bloc de code par défaut
+}

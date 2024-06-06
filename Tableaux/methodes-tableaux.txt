@@ -1,0 +1,16 @@
+Méthodes Communes des Tableaux
+
+push() : Ajoute un élément à la fin du tableau.
+
+pop() : Supprime le dernier élément du tableau et le retourne.
+
+shift() : Retire le premier élément du tableau et le retourne.
+
+unshift() : Ajoute un ou plusieurs éléments au début du tableau.
+
+forEach() : Exécute une fonction sur chaque élément du tableau.
+
+map() : Crée un nouveau tableau avec les résultats de l'appel d'une fonction sur chaque élément du tableau.
+
+
+

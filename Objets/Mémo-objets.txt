@@ -1,0 +1,68 @@
+Qu'est-ce qu'un Objet ?
+
+Un objet est une collection de propriétés où chaque propriété est une association entre un nom (ou clé) et une valeur, qui peut être une donnée ou une fonction (méthode).
+
+
+
+
+
+Création et Manipulation d'Objets
+
+Syntaxe de base pour créer un objet :
+javascriptCopy codelet objet = {
+propriete1: valeur1,
+propriete2: valeur2,
+methode1: function() {
+// actions
+}
+};
+
+
+
+Exemple d'un objet voiture :
+javascriptCopy codelet voiture = {
+marque: 'Toyota',
+modele: 'Corolla',
+annee: 2021,
+afficherDetails: function() {
+console.log(`Marque: ${this.marque}, Modèle: ${this.modele}, Année: ${this.annee}`);
+}
+};
+voiture.afficherDetails(); // Affiche les détails de la voiture
+
+
+
+
+
+
+
+Propriétés et Méthodes
+
+
+
+Propriétés : Stockent des informations sur l'objet.
+
+Méthodes : Fonctions associées à l'objet qui peuvent utiliser ou modifier les propriétés de l'objet.
+
+Ajouter une méthode :
+javascriptCopy codevoiture.demarrer = function() {
+console.log("La voiture démarre !");
+};
+voiture.demarrer(); // Exécute la méthode démarrer
+
+
+
+
+
+Utilisation de 'this' dans les Objets
+
+
+
+'this' fait référence à l'objet courant, permettant d'accéder aux autres propriétés de l'objet ou de les modifier.
+
+Exemple de modification d'une propriété :
+javascriptCopy codevoiture.miseAJourAnnee = function(nouvelleAnnee) {
+this.annee = nouvelleAnnee;
+};
+voiture.miseAJourAnnee(2022);
+console.log(voiture.annee); // Affiche 2022

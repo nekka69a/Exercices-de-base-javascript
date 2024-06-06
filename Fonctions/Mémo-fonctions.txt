@@ -1,0 +1,61 @@
+Qu'est-ce qu'une Fonction ?
+
+Une fonction est une série d'instructions qui effectue une tâche spécifique.
+
+Déclarée avec le mot-clé function, suivie d'un nom, de paramètres entre parenthèses, et d'un bloc de code entre accolades.
+
+
+
+
+
+Définition et Appel d'une Fonction
+
+Syntaxe de base :
+javascriptCopy codefunction nomDeLaFonction() {
+// code à exécuter
+}
+nomDeLaFonction(); // Appel de la fonction
+
+
+
+Exemple :
+javascriptCopy codefunction direBonjour() {
+console.log("Bonjour à tous !");
+}
+direBonjour();
+
+
+
+
+
+Paramètres et Retour
+
+Paramètres : Variables passées à une fonction, utilisées pour personnaliser son exécution.
+
+Retour : Une fonction peut renvoyer une valeur à l'endroit où elle est appelée avec return.
+
+Exemple avec paramètres et retour :
+javascriptCopy codefunction additionner(a, b) {
+return a + b;
+}
+let resultat = additionner(5, 3);
+console.log('Le résultat est :', resultat); // Affiche 8
+
+
+
+
+
+Portée des Variables (Scope)
+
+Locale : Variables définies à l'intérieur d'une fonction, non accessibles à l'extérieur.
+
+Globale : Variables définies à l'extérieur de toute fonction, accessibles partout dans le code.
+
+Exemple de portée :
+javascriptCopy codefunction testerScope() {
+let variableLocale = "Accessible seulement dans cette fonction";
+console.log(variableLocale);
+}
+testerScope();
+// console.log(variableLocale); // Erreur : variableLocale n'est pas définie
+
