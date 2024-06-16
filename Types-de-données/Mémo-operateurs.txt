@@ -1,0 +1,48 @@
+Opérateurs Arithmétiques
+🔢 Utilisation Basique :
+
+Addition (+) : let somme = 5 + 3; // Donne 8
+
+Soustraction (-) : let difference = 10 - 5; // Donne 5
+
+Multiplication (*) : let produit = 4 * 2; // Donne 8
+
+Division (/) : let quotient = 20 / 4; // Donne 5
+
+Opérateurs d'Assignation Composée
+
+
+🔄 Simplification des Calculs :
+
+Addition (+=) : let a = 10; a += 5; // a est maintenant 15
+
+Soustraction (-=) : let b = 20; b -= 5; // b est maintenant 15
+
+Multiplication (*=) : let c = 3; c *= 4; // c est maintenant 12
+
+Division (/=) : let d = 10; d /= 2; // d est maintenant 5
+
+
+
+Opérateurs de Comparaison
+🤔 Comparer les Valeurs :
+
+Égal à (==) : 5 == 5; // Donne true
+
+Non égal à (!=) : 5 != 4; // Donne true
+
+Supérieur à (>) : 10 > 5; // Donne true
+
+Inférieur à (<) : 5 < 10; // Donne true
+
+
+
+Opérateurs Logiques
+🔗 Tester les Conditions :
+
+ET (&&) : true && false; // Donne false
+
+OU (||) : true || false; // Donne true
+
+NON (!) : !true; // Donne false
+
